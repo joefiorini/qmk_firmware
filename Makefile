@@ -116,7 +116,7 @@ list-keyboards:
 	echo $(KEYBOARDS)
 	exit 0
 
-define PRINT_KEYBOARD
+define pRINT_KEYBOARD
 	$(info $(PRINTING_KEYBOARD))
 endef
 
